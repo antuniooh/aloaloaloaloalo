@@ -153,3 +153,9 @@ document.querySelector(".js-sticker").addEventListener("click", sticker);
 window.onresize = function (event) {
   recize_notes();
 };
+
+
+function autoNotify() {
+  var sample = document.getElementById("notifypop");
+  sample.play();
+};
