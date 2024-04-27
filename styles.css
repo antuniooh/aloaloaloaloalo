@@ -35,8 +35,8 @@ body {
 }
 @media (min-width: 600px) {
   .envelop {
-    width: 25rem;
-    height: 20rem;
+    width: 40rem;
+    height: 30rem;
   }
 }
 @media (min-width: 600px) and (min-height: 600px) {
@@ -183,7 +183,7 @@ body {
 }
 @media (min-width: 600px) {
   .note__text p {
-    font-size: 1.15rem;
+    font-size: 1.9rem;
   }
 }
 .scissors {
@@ -195,3 +195,5 @@ body {
 .cursor {
   cursor: pointer;
 }
+
+#notifypop{ display:none;}
